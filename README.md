@@ -199,6 +199,70 @@ Encoders
 
 ```
 
+## 🧠 ENCODERS in Machine Learning & Deep Learning
+
+```
+ENCODING
+├── 1. CATEGORICAL ENCODING
+│   ├── 1.1. Nominal (No Order)
+│   │   ├── One-Hot Encoding
+│   │   ├── Binary Encoding
+│   │   ├── Count/Frequency Encoding
+│   │   ├── Hash Encoding
+│   │   └── Mean Encoding
+│   │
+│   └── 1.2. Ordinal (With Order)
+│       ├── Label Encoding
+│       ├── Ordinal Integer Mapping
+│       └── Target-Guided Ordinal Encoding
+│
+├── 2. TEXT ENCODING (NLP)
+│   ├── Bag of Words (BoW)
+│   ├── TF-IDF (Term Frequency - Inverse Document Frequency)
+│   ├── Word Embeddings
+│   │   ├── Word2Vec
+│   │   ├── GloVe
+│   │   └── FastText
+│   └── Transformer-based
+│       ├── BERT Embeddings
+│       └── GPT-style Embeddings
+│
+├── 3. IMAGE ENCODING (CV)
+│   ├── CNN Encoders
+│   │   ├── ResNet
+│   │   ├── VGG
+│   │   └── EfficientNet
+│   └── Vision Transformers (ViT)
+│
+├── 4. SEQUENCE ENCODING (Time-series / Speech / NLP)
+│   ├── RNN-based
+│   │   ├── Simple RNN
+│   │   ├── LSTM
+│   │   └── GRU
+│   └── Transformer-based
+│       ├── Positional Encoding
+│       └── Attention Mechanisms
+│
+├── 5. AUTOENCODERS (Unsupervised Encoding)
+│   ├── Vanilla Autoencoder
+│   ├── Denoising Autoencoder
+│   └── Variational Autoencoder (VAE)
+│
+└── 6. SPECIALIZED ENCODING
+    ├── Embedding Layers (for DL models)
+    ├── Learned Embeddings (e.g., TabTransformer)
+    ├── Contrastive Encoders (e.g., SimCLR, BYOL)
+    └── Self-Supervised Encoders (e.g., MAE, MoCo)
+
+
+```
+
+
+
+
+
+
+
 
 
 
