@@ -38,14 +38,27 @@ Artificial Intelligence (AI)
 │   │       └── Eclat
 │   │
 │   └── Reinforcement Learning
-│       ├── Model-Free Methods
-│       │   ├── Q-Learning
-│       │   └── SARSA
-│       └── Deep Reinforcement Learning
-│           ├── Deep Q-Network (DQN)
-│           ├── Proximal Policy Optimization (PPO)
-│           └── A3C (Asynchronous Advantage Actor-Critic)
-│
+│   |   ├── Model-Free Methods
+│   |   │   ├── Q-Learning
+│   |   │   └── SARSA
+│   |   └── Deep Reinforcement Learning
+│   |       ├── Deep Q-Network (DQN)
+│   |       ├── Proximal Policy Optimization (PPO)
+│   |       └── A3C (Asynchronous Advantage Actor-Critic)
+│   |
+|   |
+|   ├── Federated Learning
+│   │   └── ML on decentralized data (e.g., smartphones)
+│   │
+│   ├── Transfer Learning
+│   │   └── Uses a pre-trained model on new tasks
+│   │       └── e.g., ResNet, BERT, GPT fine-tuning
+│   │
+│   └── Meta Learning
+│       └── "Learning to learn" (e.g., few-shot learning)
+|
+|
+|
 └── Neural Networks (Subset of ML)
     │
     ├── Shallow Neural Networks
