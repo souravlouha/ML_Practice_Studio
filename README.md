@@ -3,6 +3,82 @@
 <url>![web-banner-AIML-1](https://github.com/user-attachments/assets/3a6ce135-0e45-42ac-98e5-fbbcae781599)</url>
 </url>
 
+## 🌳 AI, ML, and Neural Networks – Detailed Family Tree
+
+Artificial Intelligence (AI)
+│
+├── Machine Learning (ML)
+│   │
+│   ├── Supervised Learning
+│   │   ├── Regression
+│   │   │   ├── Linear Regression
+│   │   │   ├── Polynomial Regression
+│   │   │   └── Ridge/Lasso Regression
+│   │   └── Classification
+│   │       ├── Logistic Regression
+│   │       ├── Decision Tree Classifier
+│   │       ├── Random Forest
+│   │       ├── K-Nearest Neighbors (KNN)
+│   │       ├── Support Vector Machine (SVM)
+│   │       └── Naive Bayes
+│   │
+│   ├── Unsupervised Learning
+│   │   ├── Clustering
+│   │   │   ├── K-Means Clustering
+│   │   │   ├── DBSCAN
+│   │   │   └── Hierarchical Clustering
+│   │   ├── Dimensionality Reduction
+│   │   │   ├── PCA (Principal Component Analysis)
+│   │   │   ├── t-SNE
+│   │   │   └── Autoencoders (Neural Net based)
+│   │   └── Association Rule Learning
+│   │       ├── Apriori
+│   │       └── Eclat
+│   │
+│   └── Reinforcement Learning
+│       ├── Model-Free Methods
+│       │   ├── Q-Learning
+│       │   └── SARSA
+│       └── Deep Reinforcement Learning
+│           ├── Deep Q-Network (DQN)
+│           ├── Proximal Policy Optimization (PPO)
+│           └── A3C (Asynchronous Advantage Actor-Critic)
+│
+└── Neural Networks (Subset of ML)
+    │
+    ├── Shallow Neural Networks
+    │   └── Single Hidden Layer Perceptron
+    │
+    └── Deep Learning (Deep Neural Networks)
+        │
+        ├── Feedforward Neural Network (FNN)
+        │   └── Also called MLP (Multilayer Perceptron)
+        │
+        ├── Convolutional Neural Network (CNN)
+        │   ├── Image Classification
+        │   ├── Object Detection
+        │   └── Image Segmentation
+        │
+        ├── Recurrent Neural Network (RNN)
+        │   ├── LSTM (Long Short-Term Memory)
+        │   ├── GRU (Gated Recurrent Unit)
+        │   └── Applications: time series, speech, NLP
+        │
+        ├── Transformer Networks
+        │   ├── BERT
+        │   ├── GPT (like ChatGPT)
+        │   └── Used in: NLP, translation, summarization
+        │
+        ├── Autoencoders
+        │   ├── Denoising Autoencoder
+        │   └── Variational Autoencoder (VAE)
+        │
+        └── Generative Adversarial Networks (GANs)
+            ├── Generator
+            └── Discriminator
+
+
+
 # Introduction to Data Science & AI
 
 ## Overview
