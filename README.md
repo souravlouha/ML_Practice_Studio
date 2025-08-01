@@ -95,6 +95,114 @@ Artificial Intelligence (AI)
 
 ```
 
+## 🔄 Encoders in Machine Learning
+
+```
+Encoders
+│
+├── 1. Categorical Encoders
+│   │
+│   ├── 1.1 Label Encoding
+│   │   └── Assigns a unique integer to each category
+│   │       Example: red=0, green=1, blue=2
+│   │
+│   ├── 1.2 One-Hot Encoding
+│   │   └── Creates binary columns for each category
+│   │       Example: red = [1, 0, 0], green = [0, 1, 0]
+│   │
+│   ├── 1.3 Ordinal Encoding
+│   │   └── Assigns ordered integers based on rank/priority
+│   │       Example: small=1, medium=2, large=3
+│   │
+│   ├── 1.4 Binary Encoding
+│   │   └── Converts categories to binary code
+│   │       More compact than One-Hot for high-cardinality data
+│   │
+│   ├── 1.5 Frequency Encoding
+│   │   └── Replaces category with frequency count
+│   │       Example: red=30, green=20 (based on occurrence)
+│   │
+│   ├── 1.6 Count Encoding
+│   │   └── Replaces each category with number of times it appears
+│   │
+│   ├── 1.7 Target Encoding (Mean Encoding)
+│   │   └── Replace category with average target value
+│   │       Example: average sales per city
+│   │
+│   ├── 1.8 Hash Encoding (Feature Hashing)
+│   │   └── Uses hash function to encode category into fixed-length vector
+│   │
+│   └── 1.9 Leave-One-Out Encoding
+│       └── Like target encoding but leaves out current row's target
+│
+├── 2. Text Encoders (for NLP)
+│   │
+│   ├── 2.1 Bag of Words (BoW)
+│   │   └── Vector of word counts across document
+│   │
+│   ├── 2.2 TF-IDF (Term Frequency-Inverse Document Frequency)
+│   │   └── Weights words by frequency and uniqueness
+│   │
+│   ├── 2.3 Word Embeddings
+│   │   ├── Word2Vec
+│   │   ├── GloVe
+│   │   └── FastText
+│   │
+│   ├── 2.4 Sentence Embeddings
+│   │   ├── Universal Sentence Encoder (USE)
+│   │   ├── BERT Embeddings
+│   │   └── SBERT (Sentence-BERT)
+│   │
+│   └── 2.5 Tokenizer-based Encoders
+│       ├── Byte Pair Encoding (BPE)
+│       ├── WordPiece
+│       └── SentencePiece
+│
+├── 3. Image Encoders (in Deep Learning)
+│   │
+│   ├── 3.1 CNN-based Encoders
+│   │   └── Encodes image into feature maps
+│   │
+│   ├── 3.2 Pre-trained CNN Encoders
+│   │   ├── VGG
+│   │   ├── ResNet
+│   │   └── EfficientNet
+│   │
+│   └── 3.3 Vision Transformer (ViT) Encoders
+│       └── Tokenizes and encodes image patches using attention
+│
+├── 4. Sequence Encoders (for sequential/time-series data)
+│   │
+│   ├── 4.1 RNN Encoder
+│   ├── 4.2 LSTM Encoder
+│   ├── 4.3 GRU Encoder
+│   └── 4.4 Transformer Encoder
+│       └── Used in BERT, GPT, T5, etc.
+│
+└── 5. Autoencoders (Unsupervised Feature Learning)
+    │
+    ├── 5.1 Vanilla Autoencoder
+    │   └── Compress and reconstruct input
+    │
+    ├── 5.2 Denoising Autoencoder
+    │   └── Learns to reconstruct input from noisy version
+    │
+    ├── 5.3 Sparse Autoencoder
+    │   └── Enforces sparsity constraint in hidden layer
+    │
+    ├── 5.4 Variational Autoencoder (VAE)
+    │   └── Learns probabilistic latent space
+    │
+    └── 5.5 Contractive Autoencoder
+        └── Penalizes sensitivity to input changes
+
+
+```
+
+
+
+
+
 
 # Introduction to Data Science & AI
 
