@@ -5,6 +5,8 @@
 
 ## 🌳 AI, ML, and Neural Networks – Detailed Family Tree
 
+```
+
 Artificial Intelligence (AI)
 │
 ├── Machine Learning (ML)
@@ -77,6 +79,8 @@ Artificial Intelligence (AI)
             ├── Generator
             └── Discriminator
 
+
+```
 
 
 # Introduction to Data Science & AI
